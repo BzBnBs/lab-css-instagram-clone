@@ -7,4 +7,22 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #06365f;
+  height: 100px;
+}
+
+.button {
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  background-color: #1c5380;
+}
+
+.text {
+  color: white;
+}
+
+.down {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 504px,
 }
