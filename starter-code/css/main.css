@@ -7,22 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-color: #06365f;
-  height: 100px;
+  background: linear-gradient(#1c5380 0%,#1c5380 40%,#1c5380 40%,white 40%,white 100%);
+}
+
+.container {
+  background-color: black;
+  margin: 10% 12.5%;
+}
+
+.left {
+  width: 30%;
+  float: left;
+}
+
+.right {
+  width: 504px;
+  position: relative;
+  float: right;
+}
+
+.up {
+  padding: 10px 5px 20px;
+}
+
+.logo {
+  float: left;
 }
 
 .button {
   border: 1px solid #06365f;
   border-radius: 2px;
-  background-color: #1c5380;
+  width: 100px;
+  height: 25px;
+  background: linear-gradient(0deg, #1c5380, #1c5380 , white);
+  /*background-color: #1c5380;*/
+  margin: 20px 0px;
+  padding: 5px;
+  position: relative;
+  float: right;
+}
+
+.house {
+  position: relative;
+  float: left;
+  padding: 2px;
 }
 
 .text {
+  position: relative;
   color: white;
+  float: right;
+  bottom: 18px;
+  padding: 2px 5px;
 }
 
 .down {
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
-  width: 504px,
+  width: 504px;
+  clear: both;
+}
+
+.content {
+  padding: 10px 45px;
+  position: relative;
+}
+
+.title {
+  color: #06365f;
+}
+
+.description {
+
+}
+
+.buttons {
+  position: relative;
+}
+
+.button-left {
+  position: relative;
+  float: left;
+}
+
+.button-right {
+  position: relative;
+  float: right;
+  display: inline;
+}
+
+.footer {
+  positon: relative;
+  text-transform: uppercase;
+  
 }
